@@ -1,0 +1,12 @@
+.container{
+    margin: auto;
+    width: 90%;
+}
+
+.folder-container{
+    margin-top: 2px;
+}
+
+.folder, .file{
+    cursor: pointer;
+}

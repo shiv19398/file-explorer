@@ -1,0 +1,56 @@
+export const explorer={
+    name:"root",
+    isFolder:true,
+    items:[
+        {
+            name:'src',
+            isFolder:true,
+            items:[
+                {
+                    name:'components',
+                    isFolder:true,
+                    items:[
+                        {
+                            name:'Folder',
+                            isFolder:true,
+                            items:[
+                                {
+                                    name:'index.jsx',
+                                    isFolder:false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name:'data',
+                    isFolder:true,
+                    items:[
+                        {
+                            name:'index.js',
+                            isFolder:false
+                        }
+                    ]
+                },
+                {
+                    name:'App.css',
+                    isFolder:false,
+                },
+                {
+                    name:'App.jsx',
+                    isFolder:false,
+                },
+                {
+                    name:'main.jsx',
+                    isFolder:false,
+                },
+                {
+                    name:'index.html',
+                    isFolder:false,
+                }
+            ]
+        },
+        
+    ]
+
+}
